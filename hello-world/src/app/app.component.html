@@ -1,14 +1,14 @@
-<h1>Hello World! Angular</h1>
-<p>Luiz lindo</p>
-
-<div><a href="#">Clique aqui</a></div>
-
-<app-first-component></app-first-component>
-<app-parent-data [name]="userName" [userData]="userData"></app-parent-data>
-<app-directives></app-directives>
-<app-if-render></app-if-render>
-<app-events></app-events>
-<app-emitter></app-emitter>
-<app-list-render></app-list-render>
-<app-pipes></app-pipes>
-<app-two-way-binding></app-two-way-binding>
+<p>Header</p>
+<nav>
+  <a
+    [ngStyle]="{ 'margin-left': '15px', 'margin-right': '15px' }"
+    routerLink="/"
+    >Home</a
+  >
+  <a routerLink="/list">List</a>
+  <a [ngStyle]="{ 'margin-left': '15px' }" routerLink="/directives"
+    >Directives</a
+  >
+</nav>
+<router-outlet></router-outlet>
+<p>Footer</p>
