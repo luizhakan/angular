@@ -11,3 +11,13 @@ a {
 a:hover {
   color: blue;
 }
+
+body {
+  padding-bottom: 500px;
+}
+
+.class {
+  border-bottom: 1px solid red;
+  padding: 2em;
+  margin-bottom: 1em;
+}
