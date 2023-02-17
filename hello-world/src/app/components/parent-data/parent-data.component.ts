@@ -6,6 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./parent-data.component.css'],
 })
 export class ParentDataComponent {
-  @Input() name: string = '';
+  @Input() name = '';
   @Input() userData!: { email: string; role: string };
 }
