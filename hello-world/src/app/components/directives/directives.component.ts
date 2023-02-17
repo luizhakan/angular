@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./directives.component.css'],
 })
 export class DirectivesComponent {
-  size: number = 40;
-  font: string = 'Arial';
-  color: string = 'red';
+  size = 40;
+  font = 'Arial';
+  color = 'red';
 
   classes : string[] = ['green-title', 'small-title'];
-  underline: string = 'underline';
+  underline = 'underline';
 }

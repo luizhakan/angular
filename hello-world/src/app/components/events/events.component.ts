@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./events.component.css']
 })
 export class EventsComponent {
-  show: boolean = true;
+  show = true;
 
   showMessage(): void {
     this.show = !this.show; // toggle the boolean value

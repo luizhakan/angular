@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./emitter.component.css']
 })
 export class EmitterComponent {
-  myNumber : number = 0;
+  myNumber  = 0;
 
   onChangeNumber(): void {
     this.myNumber++;
