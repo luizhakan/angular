@@ -20,8 +20,12 @@ export class ListRenderComponent {
     return this.animalDetails;
   }
 
-  removeAnimal(animal: Animal): void {
-    this.listService.remove(this.animals, animal);
+  removeAnimal(animal: Animal) {
+    // this.listService.remove(this.animals, animal);
+    // this.animals = this.animals.splice(animal.indexOf(animal), 1);
+    // remover animal do banco de dados
+    this.animals = this.animals.filter((a) => animal.name !== a.name);
+    this.listService.remove(animal);
   }
 
   getAnimals(): void {
