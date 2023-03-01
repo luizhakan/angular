@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Animal } from '../components/Animal';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -11,9 +11,8 @@ export class ListService {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   constructor(private http: HttpClient) {}
 
-  remove(animals: Animal[], animal: Animal): void {
-    console.log(animals);
-    animals.splice(animals.indexOf(animal), 1);
+  remove(animal: Animal): void {
+    this.http.delete(`${this.apiUrl}/${animal.id}`).subscribe();
   }
 
   getAll(): Observable<Animal[]> {
