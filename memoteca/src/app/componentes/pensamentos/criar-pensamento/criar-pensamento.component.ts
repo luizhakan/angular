@@ -45,10 +45,10 @@ export class CriarPensamentoComponent implements OnInit {
   //   this.pensamento.autoria = autoria;
   // }
 
-  cancelarPensamento(e: Event) {
-    e.preventDefault();
-    alert('Pensamento cancelado!');
-  }
+  // cancelarPensamento(e: Event) {
+  //   e.preventDefault();
+  //   window.location.href = '/listarPensamento';
+  // }
 
   ngOnInit(): void {}
 }
