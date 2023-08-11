@@ -1,0 +1,22 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "teste",
+      "autor": "João",
+      "modelo": "modelo 1"
+    },
+    {
+      "id": 2,
+      "conteudo": "teste 2",
+      "autor": "João",
+      "modelo": "modelo 2"
+    },
+    {
+      "id": 3,
+      "conteudo": "teste 3",
+      "autor": "João",
+      "modelo": "modelo 3"
+    }
+  ]
+}
