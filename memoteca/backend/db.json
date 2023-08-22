@@ -4,72 +4,84 @@
       "id": 1,
       "conteudo": "Eu programo em TypeScript",
       "autoria": "Luiz Hakan",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "id": 2,
       "conteudo": "Eu programo em Java",
       "autoria": "Luiz Hakan",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": true
     },
     {
       "id": 3,
       "conteudo": "Eu programo em C",
       "autoria": "Luiz Hakan",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "id": 5,
       "conteudo": "Testando angular",
       "autoria": "Luiz Hakan",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "conteudo": "Eu estou aprendendo Angular!",
       "autoria": "Luiz Hakan",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 6
     },
     {
       "id": 7,
       "conteudo": "Eu estou aprendendo Spring!",
       "autoria": "Luiz Hakan",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "conteudo": "Formulário reativo testando aqui para ver",
       "autoria": "Luiz Hakan",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 8
     },
     {
       "conteudo": "Testando a diretiva para tratamento de erro",
       "autoria": "Luiz Hakan",
       "modelo": "modelo2",
+      "favorito": false,
       "id": 9
     },
     {
       "conteudo": "Luiz Hakan",
       "autoria": "Luiz Hakan",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 10
     },
     {
       "conteudo": "Eu estou aprendendo Angular!",
       "autoria": "Luiz Hakan",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 11
     },
     {
       "conteudo": "Em casa a gente conversa",
       "autoria": "Mãe",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 12
     },
     {
       "conteudo": "Fala brother",
       "autoria": "Phellipe",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 13
     }
   ]
