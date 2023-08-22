@@ -41,6 +41,24 @@
       "autoria": "Luiz Hakan",
       "modelo": "modelo3",
       "id": 8
+    },
+    {
+      "conteudo": "Testando a diretiva para tratamento de erro",
+      "autoria": "Luiz Hakan",
+      "modelo": "modelo2",
+      "id": 9
+    },
+    {
+      "conteudo": "Luiz Hakan",
+      "autoria": "Luiz Hakan",
+      "modelo": "modelo1",
+      "id": 10
+    },
+    {
+      "conteudo": "Eu estou aprendendo Angular!",
+      "autoria": "Luiz Hakan",
+      "modelo": "modelo1",
+      "id": 11
     }
   ]
 }

@@ -11,16 +11,22 @@ export class ListarPensamentoComponent implements OnInit {
   listaPensamentos: Pensamento[] = [];
 
   constructor(private service: PensamentoService) {}
+  paginaAtual = 1;
+  haMaisPensamentos: boolean = true;
 
-  // nessa função, eu quero que crie um link para a rota criarPensamento
-  // linkCriarPensamento(e: Event) {
-  //   e.preventDefault();
-  //   window.location.href = '/criarPensamento';
-  // }
+  carregarMaisPensamentos() {
+    this.service.listar(++this.paginaAtual).subscribe((listaPensamentos) => {
+      this.listaPensamentos.push(...listaPensamentos);
+
+      if (!listaPensamentos.length) {
+        this.haMaisPensamentos = false;
+      }
+    });
+  }
 
   ngOnInit(): void {
-    this.service.listar().subscribe((pensamentos) => {
+    this.service.listar(this.paginaAtual).subscribe((pensamentos) => {
       this.listaPensamentos = pensamentos;
-    })
+    });
   }
 }
