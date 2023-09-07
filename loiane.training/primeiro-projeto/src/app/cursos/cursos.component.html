@@ -1,0 +1,18 @@
+<p>
+    Lista de cursos do portal <a href={{nomePortal}} target="_blank">{{nomePortal}}</a>
+</p>
+
+<ul>
+    <h4>Cursos</h4>
+    <li *ngFor="let curso of cursos">{{curso}}</li>
+</ul>
+
+<ul>
+    <h2>Instrutores</h2>
+    <li *ngFor="let instrutor of instrutores">{{instrutor}}</li>
+</ul>
+
+<ul>
+    <h2>Cursos em formato objeto</h2>
+    <li *ngFor="let curso of curso">{{curso.id}} - {{curso.nome}} - {{curso.instrutor}}</li>
+</ul>
